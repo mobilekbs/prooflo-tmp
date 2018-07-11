@@ -1,14 +1,17 @@
 .tag{
 	cursor: pointer;
 }
-.circle-red{
-	border-radius: 50px;
-	width: 30px;
-	height: 30px;
-	padding-top: 6px;
+.circle-red {
+	background: red;
+	width: 23px;
+	height: 23px;
+	border-radius: 30px;
 	text-align: center;
-	font-size: 13px;
+	margin-top: 8px;
+	position: absolute;
+	top: -15px;
+	z-index: 98;
+	right: -14px;
 	color: white;
-	background: rgb(66, 133, 244) none repeat scroll 0% 0%;
-
+	font-weight: 600;
 }
